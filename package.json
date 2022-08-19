@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the First Iteration (Prototype) of the Ecommerce Dashboard Project",
   "engines": {
     "node": "16.x",
     "npm": "8.x"
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend && SKIP_PREFLIGHT_CHECK=true"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
@@ -37,5 +37,15 @@
     "validator": "^13.6.0",
     "webpack": "^5.74.0",
     "webpack-dev-server": "^4.10.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhwani-S/Ecom-Iteration1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Dhwani-S/Ecom-Iteration1/issues"
+  },
+  "homepage": "https://github.com/Dhwani-S/Ecom-Iteration1#readme"
 }
