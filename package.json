@@ -35,7 +35,6 @@
     "scheduler": "^0.23.0",
     "stripe": "^8.174.0",
     "validator": "^13.6.0",
-    "webpack": "^4.44.2",
     "webpack-dev-server": "^4.10.0"
   },
   "repository": {
