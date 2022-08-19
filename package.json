@@ -30,6 +30,8 @@
     "react-dom": "^18.2.0",
     "scheduler": "^0.23.0",
     "stripe": "^8.174.0",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.10.0"
   }
 }
